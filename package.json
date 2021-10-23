@@ -1,0 +1,35 @@
+{
+  "name": "monorepo",
+  "version": "0.1.0",
+  "description": "vite plugin for react and mdx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codpoe/vite-plugin-react-mdx.git"
+  },
+  "author": "codpoe <codpoe.me@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Codpoe/vite-plugin-react-mdx/issues"
+  },
+  "homepage": "https://github.com/Codpoe/vite-plugin-react-mdx#readme",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.3"
+  }
+}
