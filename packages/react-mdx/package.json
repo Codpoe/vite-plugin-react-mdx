@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-react-mdx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "vite plugin for react and mdx",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
