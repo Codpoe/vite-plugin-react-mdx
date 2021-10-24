@@ -1,10 +1,9 @@
 import type { Plugin } from 'vite';
-import type { Pluggable } from 'unified';
 import { createCompiler } from '@mdx-js/mdx';
 
 export interface ReactMdxOptions {
-  remarkPlugins?: Pluggable[];
-  rehypePlugins?: Pluggable[];
+  remarkPlugins?: any[];
+  rehypePlugins?: any[];
 }
 
 export function reactMdx(options: ReactMdxOptions = {}): Plugin {
